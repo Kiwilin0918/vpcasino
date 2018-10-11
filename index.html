@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BTGame</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <!-- my style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+</head>
+
+<body>
+    <div class="bg-lobby">
+        <!-- 大廳 -->
+        <header class="header">
+            <div class="kw-height bg-header">
+                <div class="bg-logo"></div>
+                <div class="header_content d-flex align-items-center justify-content-between">
+                    <div class="col">
+                        <div class="kw-ml-admin">
+                            <img src="assets/images/icon-admin.png" class="img-fluid img-size-chacter" alt="">
+                            <span class="title-font text-orange">admin00001</span>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col">
+                        <div class="text-gold text-left">
+                            <img src="assets/images/icon-coin.png" class="img-size" alt="">
+                            <span class="title-font w-100">1000.00</span>
+                        </div>
+                    </div>
+                    <!-- logo -->
+                    <!-- <div class="" style="width: 50px;">
+                            <a href="#page-top" class="bg-logo js-scroll-trigger"></a>
+                        </div> -->
+                    <!-- <nav class="main_nav_contaner navbar navbar-expand navbar-light" id="mainNav">
+                            <div class="collapse navbar-collapse" id="navbarResponsive">
+                                <ul class="main_nav list-unstyled mb-0 navbar-nav justify-content-center">
+                                    <li class="nav-item mx-2">
+                                        <img src="assets/images/icon-admin.png" class="img-fluid" style="width:20px;" alt="">
+                                        <span class="text-orange">admin00001</span>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <span>錢：</span>
+                                        <span>100,000.00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> -->
+                    <!-- Hamburger -->
+                    <!-- <div class="hamburger menu_mm ml-auto" style="line-height: 0;">
+                            <span class="menu_mm menu-svg"></span>
+                        </div> -->
+                </div>
+            </div>
+        </header>
+        <!-- game -->
+        <div class="container-fluid h-100 align-items-center d-flex" style="padding-top:3.3rem;">
+            <div class="owl-carousel">
+                <div class="item">
+                    <div class="d-flex flex-column">
+                        <a href="game.html">
+                            <img src="assets/images/game/1.png" alt="" class="kw-img-fluid">
+                        </a>
+                        <a href="game.html">
+                            <img src="assets/images/game/2.png" alt="" class="kw-img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex flex-column">
+                        <a href="game.html">
+                            <img src="assets/images/game/3.png" alt="" class="kw-img-fluid">
+                        </a>
+                        <a href="game.html">
+                            <img src="assets/images/game/4.png" alt="" class="kw-img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex flex-column">
+                        <a href="game.html">
+                            <img src="assets/images/game/5.png" alt="" class="kw-img-fluid">
+                        </a>
+                        <a href="game.html">
+                            <img src="assets/images/game/6.png" alt="" class="kw-img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex flex-column">
+                        <a href="game.html">
+                            <img src="assets/images/game/7.png" alt="" class="kw-img-fluid">
+                        </a>
+                        <a href="game.html">
+                            <img src="assets/images/game/8.png" alt="" class="kw-img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+            <div class="menu_close_container">
+                <div class="menu_close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <nav class="menu_nav">
+                <ul class="menu_mm list-unstyled">
+                    <li class="menu_mm mb-4">
+                        <a class="js-scroll-trigger font-600" href="#about">关于SAG</a>
+                    </li>
+                    <li class="menu_mm mb-4">
+                        <a class="js-scroll-trigger font-600" href="#coin">超能链介绍</a>
+                    </li>
+                    <li class="menu_mm mb-4">
+                        <a class="js-scroll-trigger font-600" href="#time">集团未来规划</a>
+                    </li>
+                    <li class="menu_mm mb-4">
+                        <a class="js-scroll-trigger font-600" href="#team">营运团队</a>
+                    </li>
+                    <li class="menu_mm mb-4">
+                        <a class="js-scroll-trigger font-600" href="#" target="_blank">登入</a>
+                    </li>
+                </ul>
+            </nav>
+        </div> -->
+
+        </div>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script>
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                margin: 30,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    568: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            })
+        </script>
+    </div>
+</body>
+
+</html>
